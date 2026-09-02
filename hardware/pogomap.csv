@@ -1,11 +1,55 @@
-pogo_pin,net,test_point,fixture_pin
-P1,3V3,TP1,A1
-P2,GND,TP2,A2
-P3,1V8,TP3,A3
-P4,1V0,TP4,A4
-P5,JTAG_TCK,TP10,B1
-P6,JTAG_TMS,TP11,B2
-P7,JTAG_TDI,TP12,B3
-P8,JTAG_TDO,TP13,B4
-...
-# 54 total, 100mil grid, bottom only
+pogo_pin,net,test_point,fixture_pin,x_mm,y_mm,probing,coverage
+P01,3V3,TP1,A1,5.0,5.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P02,GND,TP2,B1,17.0,5.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P03,1V8,TP3,C1,29.0,5.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P04,1V0,TP4,D1,41.0,5.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P05,12V,TP5,E1,53.0,5.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P06,GND2,TP6,F1,65.0,5.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P07,OSC_25M,TP7,G1,77.0,5.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P08,NRST,TP8,H1,89.0,5.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P09,BOOT0,TP9,A2,5.0,15.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P10,JTAG_TCK,TP10,B2,17.0,15.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P11,JTAG_TMS,TP11,C2,29.0,15.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P12,JTAG_TDI,TP12,D2,41.0,15.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P13,JTAG_TDO,TP13,E2,53.0,15.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P14,JTAG_TRST,TP14,F2,65.0,15.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P15,SWDIO,TP15,G2,77.0,15.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P16,SWCLK,TP16,H2,89.0,15.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P17,RMII_REF_CLK,TP17,A3,5.0,25.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P18,RMII_TXEN,TP18,B3,17.0,25.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P19,RMII_TXD0,TP19,C3,29.0,25.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P20,RMII_TXD1,TP20,D3,41.0,25.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P21,RMII_RXD0,TP21,E3,53.0,25.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P22,RMII_RXD1,TP22,F3,65.0,25.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P23,RMII_CRS_DV,TP23,G3,77.0,25.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P24,TX_P,TP30,H3,89.0,25.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P25,TX_N,TP31,A4,5.0,35.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P26,RX_P,TP32,B4,17.0,35.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P27,RX_N,TP33,C4,29.0,35.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P28,SDRAM_D0,TP40,D4,41.0,35.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P29,SDRAM_D1,TP41,E4,53.0,35.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P30,SDRAM_D2,TP42,F4,65.0,35.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P31,SDRAM_D3,TP43,G4,77.0,35.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P32,SDRAM_D4,TP44,H4,89.0,35.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P33,SDRAM_D5,TP45,A5,5.0,45.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P34,SDRAM_D6,TP46,B5,17.0,45.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P35,SDRAM_D7,TP47,C5,29.0,45.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P36,SDRAM_CLK,TP48,D5,41.0,45.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P37,SDRAM_CKE,TP49,E5,53.0,45.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P38,SDRAM_CAS,TP50,F5,65.0,45.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P39,SDRAM_RAS,TP51,G5,77.0,45.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P40,SDRAM_WE,TP52,H5,89.0,45.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P41,QSPI_CLK,TP60,A6,5.0,55.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P42,QSPI_CS,TP61,B6,17.0,55.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P43,QSPI_D0,TP62,C6,29.0,55.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P44,QSPI_D1,TP63,D6,41.0,55.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P45,QSPI_D2,TP64,E6,53.0,55.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P46,QSPI_D3,TP65,F6,65.0,55.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P47,UART_TX,TP70,G6,77.0,55.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P48,UART_RX,TP71,H6,89.0,55.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P49,LED1,TP72,A7,5.0,65.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P50,LED2,TP73,B7,17.0,65.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P51,BTN1,TP74,C7,29.0,65.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P52,BTN2,TP75,D7,41.0,65.0,"1.0mm pad, ICT, bottom-only, 2.54mm pitch",100%
+P54,DNC51,TP131,H51,0,0,DNC,-
+P55,DNC52,TP132,H52,0,0,DNC,-

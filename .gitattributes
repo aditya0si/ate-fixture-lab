@@ -1,0 +1,13 @@
+# Make hardware languages primary, hide HTML viewers from linguist
+*.html linguist-detectable=false
+viewer.html linguist-detectable=false
+index.html linguist-detectable=false
+*.asc linguist-documentation=true
+*.pdf linguist-documentation=true
+*.png linguist-documentation=true
+# Asic: keep Verilog/SV detectable
+*.v linguist-detectable=true
+*.sv linguist-detectable=true
+*.sdc linguist-detectable=true
+# Python
+*.py linguist-detectable=true
