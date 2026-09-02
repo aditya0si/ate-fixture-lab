@@ -1,6 +1,8 @@
 # ate-fixture-lab — Pogo-Pin JTAG ATE + Python Automation
 
 <p align="center">
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-0ea5e9?style=flat-square)](https://aditya0si.github.io/ate-fixture-lab/)
   <img src="https://img.shields.io/badge/time-42s%20vs%204m10s%20(-83%25)-success?style=flat-square" />
   <img src="https://img.shields.io/badge/coverage-98.2%25%20fault-blue?style=flat-square" />
   <img src="https://img.shields.io/badge/probed-54%20nails%20%7C%20100%25%20nets-orange?style=flat-square" />
