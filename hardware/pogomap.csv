@@ -1,0 +1,11 @@
+pogo_pin,net,test_point,fixture_pin
+P1,3V3,TP1,A1
+P2,GND,TP2,A2
+P3,1V8,TP3,A3
+P4,1V0,TP4,A4
+P5,JTAG_TCK,TP10,B1
+P6,JTAG_TMS,TP11,B2
+P7,JTAG_TDI,TP12,B3
+P8,JTAG_TDO,TP13,B4
+...
+# 54 total, 100mil grid, bottom only
